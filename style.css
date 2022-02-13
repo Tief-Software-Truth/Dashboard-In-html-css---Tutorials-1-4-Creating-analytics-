@@ -1,0 +1,394 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	height: 100vh;
+	background: lavender;
+}
+.container{
+	height: 430px;
+	width: 830px;
+	transform: translate(240px, 80px);
+}
+.conNames{
+	position: absolute;
+	height: 300px;
+	width: 400px;
+	background: hsl(210deg, 7%, 16%);
+	border-radius: 15px;
+	border-top-left-radius: 40px;
+	top: 0;
+	display: flex;
+}
+.conN{
+	position: absolute;
+	height: 12px;
+	width:  130px;
+	border-radius: 50px;
+	transform: translate(19px,10px);
+	background: hsl(210deg, 15%, 35%);
+}
+.conNB.First{
+	position: absolute;
+	height: 60px;
+	width: 360px;
+	border-radius: 10px;
+	transform: translate(19px,50px);
+	background: hsl(212deg, 11%, 24%);
+	align-content: center;
+	align-items: center;
+	display: flex;
+}
+.nameF{
+	height: 45px;
+	width: 45px;
+	line-height: 45px;
+	border-radius: 50%;
+	background: hsl(180deg 100% 96%);
+	margin: 15px;
+	color: hsl(185deg, 32%, 35%);
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+	font-family:'Poppins', sans-serif;
+}
+.oneF{
+	font-size: 20px;
+	color: hsl(230deg, 13%, 73%);
+	font-weight: 500;
+	margin: 1px 4px 0px 0px;
+	font-family:'Poppins', sans-serif;
+}
+.twoF{
+	font-size: 20px;
+	color: hsl(230deg, 13%, 73%);
+	margin: 1px 20px 0px 10px;
+	font-family:'Poppins', sans-serif;
+}
+.conNB.second{
+	position: absolute;
+	height: 60px;
+	width: 360px;
+	border-radius: 10px;
+	transform: translate(19px,130px);
+	background: hsl(212deg, 11%, 24%);
+	align-content: center;
+	align-items: center;
+	display: flex;
+}
+.nameS{
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 50px;
+	background: hsl(0deg, 100%, 94%);
+	margin: 15px;
+	color: hsl(0deg, 81%, 71%);
+	font-size: 20px;
+	text-align: center;
+	font-weight: 500;
+	font-family:'Poppins', sans-serif;
+}
+.oneS{
+	position: absolute;
+	height: 12px;
+	width: 130px;
+	border-radius: 50px;
+	transform: translate(70px,0px);
+	background: hsl(229deg, 7%, 48%);
+}
+.twoS{
+	position: absolute;
+	height: 12px;
+	width: 90px;
+	border-radius: 50px;
+	transform: translate(245px,0px);
+	background: hsl(229, 7%, 48%);
+}
+
+.conNB.theerd{
+	position: absolute;
+	width: 360px;
+	height: 60px;
+	border-radius: 10px;
+	transform: translate(19px,210px);
+	background: hsl(212deg, 11%, 24%);
+	align-items: center;
+	align-content: center;
+	display: flex;
+}
+.nameT{
+	height: 45px;
+	width: 45px;
+	line-height: 45px;
+	border-radius: 50%;
+	background: hsl(230deg, 69%, 84%);
+	margin: 15px;
+	color: hsl(230deg, 21%,42%);
+	text-align: center;
+	font-size: 20px;
+	font-weight: 500;
+	font-family:'Poppins', sans-serif;
+}
+.oneT{
+	position: absolute;
+	height: 12px;
+	width: 130px;
+	border-radius: 50px;
+	transform: translate(70px,0px);
+	background: hsl(229deg, 7%, 48%);
+}
+.twoT{
+	position: absolute;
+	height: 12px;
+	width: 90px;
+	border-radius: 50px;
+	transform: translate(245px,0px);
+	background: hsl(229, 7%, 48%);
+}
+/*---------------------------------*/
+.conMoney{
+	position: absolute;
+	height: 95px;
+	width: 400px;
+	transform: translate(430px);
+	background: hsl(210deg, 7%, 16%);
+	border-radius: 10px;
+	border-top-right-radius: 40px;
+	top: 0;
+	display: flex;
+}
+.conM{
+	position: absolute;
+	height: 12px;
+	width: 130px;
+	border-radius: 50px;
+	background: hsl(210deg, 15%, 35%);
+	transform: translate(19px, 10px);
+}
+.USD-M{
+	font-size: 25px;
+	margin: 40px 10px 10px 18px;
+	font-weight: 600;
+	color: hsl(230deg, 13%, 73%);
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 1px;
+}
+/*----------------------*/
+.conChart{
+	position: absolute;
+	height: 300px;
+	width: 400px;
+	background: hsl(210deg, 7%, 16%);
+	border-radius: 15px;
+	border-bottom-right-radius: 40px;
+	transform: translate(430px, 130px);
+	top: 0;
+	overflow: hidden;
+	display: flex;
+}
+.conC{
+	position: absolute;
+	height: 12px;
+	width: 230px;
+	border-radius: 50px;
+	transform: translate(19px, 19px);
+	background: hsl(210deg, 15%, 35%);
+}
+.number{
+	position: absolute;
+	font-size: 25px;
+	color: hsl(230deg, 13%, 73%);
+	margin: 40px 10px 10px 18px;
+	font-family: 'Poppins', sans-serif;
+}
+.Up{
+	position: absolute;
+	height: 30px;
+	width: 30px;
+	background: hsl(212deg, 11%, 24%);
+	margin: 1px 10px 10px 8px;
+	border-radius: 50px;
+	line-height: 30px;
+}
+.fas{
+	font-size: 15px;
+	transform: translate(12px);
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+}
+/*+++++++++++++++++++++++++++++++++++++*/
+.chartM{
+	position: absolute;
+	height: 10px;
+	width: 30px;
+	border-radius: 5px;
+	bottom: 11%;
+	margin: 19px 0px 0px 19px;
+	background: hsl(212deg, 11%, 24%);
+
+	/*Day-letter [M] = Monday*/
+
+	font-size: 20px;
+	color: hsl(227deg, 6%, 50%);
+	line-height: 50px;
+	justify-content: center;
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+}
+.chartT{
+	position: absolute;
+	height: 60px;
+	width: 30px;
+	bottom: 11%;
+	border-radius: 5px;
+	transform: translate(70px);
+	background: hsl(212deg, 11%, 24%);
+
+	/*Day-letter [T] = Tuesday*/
+
+	font-size: 20px;
+	color: hsl(227deg, 6%, 50%);
+	line-height: 150px;
+	justify-content: center;
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+}
+.chartW{
+	position: absolute;
+	height: 100px;
+	width: 30px;
+	bottom: 11%;
+	border-radius: 5px;
+	transform: translate(120px);
+	background: hsl(212deg, 11%, 24%);
+
+	/*Day-letter [W] wednesday*/
+
+	font-size: 20px;
+	color: hsl(227deg, 6%, 50%);
+	justify-content: center;
+	display: flex;
+	line-height: 230px;
+	font-family: 'Poppins', sans-serif;
+}
+.chartT.active{
+	position: absolute;
+	height: 150px;
+	width: 30px;
+	bottom: 11%;
+	border-radius: 5px;
+	transform: translate(170px);
+	background: hsl(111deg, 86%, 65%);
+
+	/*Day-letter [T]a = Thursday*/
+
+	font-size: 20px;
+	color: hsl(227deg, 6%, 50%);
+	line-height: 330px;
+	justify-content: center;
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+}
+.chartF{
+	position: absolute;
+	height: 20px;
+	width: 30px;
+	bottom: 11%;
+	border-radius: 5px;
+	transform: translate(220px);
+	background: hsl(212deg, 11%, 24%);
+
+	/*Day-letter [F] Friday*/
+
+	font-size: 20px;
+	color: hsl(227deg, 6%, 50%);
+	line-height: 70px;
+	justify-content: center;
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+}
+.chartS.active{
+	position: absolute;
+	height: 130px;
+	width: 30px;
+	bottom: 11%;
+	border-radius: 5px;
+	transform: translate(270px);
+	background: hsl(212deg, 11%, 84%);
+
+	/*Day-letter [S]a = Saturday*/
+
+	font-size: 20px;
+	color: hsl(227deg, 6%, 50%);
+	line-height: 290px;
+	justify-content: center;
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+}
+.chartS{
+	position: absolute;
+	height: 60px;
+	width: 30px;
+	bottom: 11%;
+	border-radius: 5px;
+	transform: translate(320px);
+	background: hsl(212deg, 11%, 24%);
+
+	/*Day-letter [S] = Sanday*/
+
+	font-size: 20px;
+	color: hsl(227deg, 6%, 50%);
+	line-height: 150px;
+	justify-content: center;
+	display: flex;
+	font-family: 'Poppins', sans-serif;
+}
+
+/*--------------------------*/
+
+.conRecurring{
+	position: absolute;
+	height: 95px;
+	width: 400px;
+	background: hsl(210deg, 7%, 16%);
+	border-radius: 15px;
+	border-bottom-left-radius: 40px;
+	transform: translate(0px, 338px);
+	top: 0;
+	display: flex;
+}
+.conR{
+	position: absolute;
+	height: 12px;
+	width: 130px;
+	border-radius: 50px;
+	background: hsl(213deg, 15%, 35%);
+	transform: translate(19px, 19px);
+}
+.Recurring{
+	font-size: 25px;
+	margin: 35px 0px 0px 18px;
+	font-weight: 800;
+	font-family: 'Poppins', sans-serif;
+	color: hsl(230deg, 13%, 73%);
+}
+.btnOut{
+	position: absolute;
+	height: 25px;
+	width: 50px;
+	border-radius: 50px;
+	background: hsl(212deg, 11%, 24%);
+	transform: translate(300px, 35px);
+}
+.btnIn{
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	background: hsl(230deg, 13%, 73%);
+	border-radius: 50px;
+	transform: translate(20px, 0);
+}
+
+/*the End*/
